@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Abstract mark: humanoid robot serving a covered dish (kitchen assistant) -->
+  <g transform="translate(-3 0)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+    <!-- floor / counter path -->
+    <path d="M12 88 Q50 82 88 88" stroke-width="4" opacity="0.55"/>
+    <!-- torso -->
+    <path d="M46 34 V60" stroke-width="7"/>
+    <!-- shoulders -->
+    <path d="M33 39 H59" stroke-width="6"/>
+    <!-- left arm (hanging) -->
+    <path d="M33 39 L27 60" stroke-width="5.5"/>
+    <!-- right arm (holding tray) -->
+    <path d="M59 39 L66 52" stroke-width="5.5"/>
+    <!-- legs -->
+    <path d="M46 60 L39 78" stroke-width="5.5"/>
+    <path d="M46 60 L54 78" stroke-width="5.5"/>
+    <!-- tray -->
+    <path d="M62 53 H92" stroke-width="5"/>
+    <!-- cloche (dome) -->
+    <path d="M67 51 A10 10 0 0 1 87 51" stroke-width="5"/>
+  </g>
+  <!-- head -->
+  <rect transform="translate(-3 0)" x="39" y="14.5" width="14" height="14" rx="4" fill="currentColor"/>
+  <!-- cloche knob -->
+  <circle transform="translate(-3 0)" cx="77" cy="38" r="2.6" fill="currentColor"/>
+</svg>
